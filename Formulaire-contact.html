@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Formulaire de contact</title>
+  <link rel="stylesheet" href="formulaire-contact.css">
+  <script src="script.js"></script> 
+  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <div class="logo-wrapper">
+                <img src=
+                "https://upload.wikimedia.org/wikipedia/fr/2/2a/Logo-laposte.png" 
+                class="logo" 
+                alt="logo-company"/>
+                </a>
+              </div>
+        </header>
+        <div class="form">
+            <img src=
+            "https://lh3.googleusercontent.com/proxy/LIYcmJ0UFv6wRAEJEHL8M5o2AU3nVopmr8trjileP3kdh68uC6Ov7u8hOTU7y7LjXi8SxIE3VMpgkyTO14YKGjq2912Oc_q_HBD66iDIeo3XapywG2CHRUw1dA" 
+            class="img" 
+            alt="pic"/>  
+            <h1>Rejoignez notre communauté Philatéliste pour être au courant des derniers Evenements, Ventes, News.</h1>
+            <div class="checkbox">
+                <p>Selectionnez vos thèmes préférés:</p>
+                <div>
+                    <input type="checkbox" name="International"checked>
+                    <label for="International">International</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Region">
+                    <label for="Region">Région</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Sport">
+                    <label for="International">Sport</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Animaux">
+                    <label for="Animaux">Animaux</label>
+                </div>
+            </div>
+            <div class="radio">
+                <p>Combien de collections de timbre possédez-vous ?:</p>
+                <div>
+                    <input type="radio" name="Une" value="Une"checked>
+                    <label for="Une">Une seule</label>
+                </div>
+                <div>
+                    <input type="radio" name="cinq" value="cinq">
+                    <label for="cinq">5 voir Plus</label>
+                </div>
+                <div>
+                    <input type="radio" name="plus20" value="plus20">
+                    <label for="plus20">Plus de 20</label>
+                </div>
+                <div>
+                    <input type="radio" name="plus50" value="plus50">
+                    <label for="plus50">Plus de 50</label>
+                </div>
+            </div>
+            <div class="number">
+                <label for="xp">Années d'expériences dans la Collection de Timbre:</label>
+                <input type="number" id="xp" name="xp"
+                min="1" max="100">
+            </div>
+            <div>
+                <form class="type">
+                    <label for="habits">Via quel type structure achetez-vous vos Timbres:</label>
+                    <select id="habits" name="habits">
+                      <option value="Internet">Internet</option>
+                      <option value="La Poste">La Poste</option>
+                      <option value="Boucheaoreille">Bouche à Oreille</option>
+                      <option value="Communauté de Philatéliste">Communauté de Philatéliste</option>
+                    </select>
+                    <input type="submit">
+                  </form>
+            </div>
+            <div class="email">
+                <p>Veuillez indiquer votre nom ainsi que votre adresse e-mail ci-dessous pour rentrer dans la Communauté Philatéliste:</p>
+                    <label id="name-label"> 
+                        <input id="name" placeholder="Name"required>
+                    </label>
+                    <label  id="email-label">
+                        <input type="email" id="email" placeholder="E-mail"required>
+                    </label>
+                    <label>
+                        <button type="submit" id="submit">Submit</button>
+                    </label>
+            </div>
+        </div>
+        <footer class="detail-info">
+            <div class="footer">
+                <p>BurgundytheDev@Noobiesaleentertainment©2020. No commercial purpose.</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(47,85,114,.3);
+}
+
+.logo {
+    top: 0;
+    width: 150px;
+    height: 80px;
+}
+
+
+/*formulaire*/
+
+
+.form   {
+   margin-top: 100px;
+   text-align: center;
+   font-family: 'Julius Sans One', sans-serif;  
+}
+
+.img {
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.form p {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.form h1 {
+    font-size: 20px;
+}
+
+.form .checkbox {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.form .number {
+    margin-top: 50px;
+}
+
+.form .type{
+    margin-top: 50px;
+}
+
+.email {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+/*footer*/
+
+.detail-info {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(47,85,114,.3);
+    height: 50px;
+}
+
+.footer p {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+}
